@@ -35,4 +35,4 @@ README.md          # Documentación del proyecto
 
 Este sitio web se ha subido a un servicio de hosting gratuito. Los servicios de hosting recomendados para este proyecto son:
 
-- **[Netlify](https://www.netlify.com)**
+- **[Netlify](https://github.com/Ezti94/PaginaWeb)**.
