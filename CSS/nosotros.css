@@ -1,0 +1,112 @@
+/* Diseño para pantallas grandes (PC) */  
+@media (min-width: 1024px) {  /* Aplica estos estilos solo si el ancho de la pantalla es de 1024px o más (tamaño de PC) */
+    .content {  
+      display: flex; /* Convierte el contenedor en un flexbox para organizar los elementos en una fila */  
+      flex-direction: row; /* Asegura que los elementos se coloquen en una fila horizontal */  
+      justify-content: space-around; /* Distribuye los elementos dejando espacios iguales entre ellos */  
+      gap: 20px; /* Agrega un espacio de 20px entre los elementos para evitar que estén muy juntos */  
+    }  
+  }
+.main {
+    margin-top: 20vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.tienda {
+    flex-direction:row;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align:justify;
+}
+.promo{
+    flex-direction: row;
+    border: 2px solid black;
+    margin-top: 30%;
+}
+.promo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.tienda img{
+    align-self:flex-start;
+    width: 40%;
+    height: 70%;
+}
+.promo p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: grey
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.precio-nuevo {
+    font-size: 2rem;
+    color: black;
+    margin-right: 10px;
+}
+
+.precio-viejo {
+    font-size: 1.5rem;
+    color: #d5311e;
+    text-decoration: line-through;
+}
+
+.add-to-cart {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.add-to-cart:hover {
+    background: #d5311e;
+}
+
+.colors {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    /*No colocaré margenes*/
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.black {
+    background: #000;
+}
+
+.yellow {
+    background: #f1c40f;
+}
+
+.red {
+    background: #e74c3c;
+}
+.promo-image {
+    width: 100%;
+    height: auto;
+}

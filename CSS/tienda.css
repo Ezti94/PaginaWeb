@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+.main {
+    margin-top: 20vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.tienda {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+    margin: auto;
+    width:90vw;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align:justify;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    background: white;
+    padding: 15px;
+    min-width: 500px;
+    max-width: 100%; 
+}
+.products{
+    flex-direction: row;
+    border: 2px solid black;
+    width:50%;
+    height:auto;
+}
+.products-image img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.promo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.tienda img{
+    align-self:flex-start;
+    width: 40%;
+    height: 70%;
+}
+.promo p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: grey
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.precio-nuevo {
+    font-size: 2rem;
+    color: black;
+    margin-right: 10px;
+}
+
+.precio-viejo {
+    font-size: 1.5rem;
+    color: #d5311e;
+    text-decoration: line-through;
+}
+
+.add-to-cart {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.add-to-cart:hover {
+    background: #d5311e;
+}
+
+.colors {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    /*No colocaré margenes*/
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.black {
+    background: #000;
+}
+
+.yellow {
+    background: #f1c40f;
+}
+
+.red {
+    background: #e74c3c;
+}
+.promo-image {
+    width: 100%;
+    height: auto;
+
+}

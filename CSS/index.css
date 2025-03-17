@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Diseño para pantallas grandes (PC) */
+
+/* .slides{ 
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+} */
+.jordan {
+  background-color: rgba(21, 19, 19, 0.856);
+  display: flex;
+  border: 2px solid red;
+ /* max-width: 1200px;
+  min-width: 320px;
+  width: 100%; */
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.index {
+  width: 100%;
+  border: solid green 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  border: solid white 2px;
+  height: 100%;
+  
+}
+
+.jordan h2{
+  color: orange;
+  text-align: center;
+}
+
+.jordan h3 {
+  display: flex;
+  text-align: center;
+  color: rgb(128, 123, 123);
+}
+
+.jordan p {
+  color: white;
+  text-align: center;
+}
+.jordan img {
+  display: flex;
+  width: 50%;
+  height: auto;
+  max-width: 320px;
+  justify-content: right;
+}
+.index h2{
+  color: orange;
+  flex-direction: column;
+}
+.mike img{
+  display: flex;
+  width: 50%;
+  height: auto;
+  max-width: 320px;
+  justify-content: right;
+}
+.sneaker{
+width:50%;
+}
+.sneaker span{
+display:flex;
+padding:1rem 0;
+font-weight: bold; /* Ponerlo en negrita */
+}
+.sneaker p{
+  margin-top: 10px;
+  text-align: left;
+  margin-right: 20px; /* Espacio entre el párrafo y las imágenes */
+}
+.sneaker-imagenes{
+display: flex;
+justify-content: right;
+}
+
+.sneaker img {
+  display: flex;
+  width: 100px; /* Ajusta el tamaño de las imágenes */
+  align-items: right;
+  height: auto;
+  margin-left: 10px; /* Espacio entre las imágenes */
+}
+
+button{
+  background-color: black;
+  color: white;
+}
+
